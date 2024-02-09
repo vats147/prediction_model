@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>Hello, World!</title>
+        <style>
+            .container-1 {
+                background-color: white;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="portion-20" >
+                <div class="title">
+                    <h1>Welcome</h1>
+                </div>
+
+                <div class="description">
+                    <p>
+                        to real state price
+prediction model
+using supervised
+and unupervised
+machine learning
+algorithms
+                    </p>
+                </div>
+            </div>
+
+            <div class="portion-80">
+                <div class="toggle">
+                    <input type="checkbox" id="toggle" class="toggleCheckbox" />
+<label for="toggle" class='toggleContainer'>
+  <div>Buy</div>   
+  <div>Sale</div>
+</label>
+                    
+                    
+                </div>
+                <div class="second-title">
+                    <h1>Predicition model</h1>
+                </div>
+                <div class="form">
+                    
+
+                    <form>
+                        <div class="form-row">
+                            
+                                
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Bedrooms *">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Sqft of above *">
+                            </div>
+                            
+                        
+
+                        </div>
+                        <div class="form-row">
+                            
+                                
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="bathrooms *">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="sqft basement *">
+                            </div>
+                            
+                        
+
+                        </div>
+
+                        <div class="form-row">
+                            
+                                
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="sqf of living room *">
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control" placeholder="year built *">
+                            </div>
+                            
+                        
+
+                        </div>
+                        <div class="form-row">
+                            
+                                
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="sqft lot *">
+                            </div>
+                            <div class="col">
+                                <input type="number" class="form-control" placeholder="zipcode *">
+                            </div>
+                            
+                        
+
+                        </div>
+                        <div class="form-row">
+                            
+                                
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="how many floors *">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="latitude *">
+                            </div>
+                            
+                        
+
+                        </div>
+                        <div class="form-row">
+                            
+                                
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="condition *">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="longitude *">
+                            </div>
+                            
+                        
+
+                        </div>
+                        
+
+                        <div class="submit-btn form-row">
+                            <input type="submit" value="Predict">
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                
+        
+      </div>
+    </div>
+    <script>
+         const buyButton = document.getElementById('buyButton');
+    const saleButton = document.getElementById('saleButton');
+        buyButton.style.backgroundColor = 'white';
+        buyButton.style.color = 'blue';
+        saleButton.style.backgroundColor = 'transparent';
+        saleButton.style.color = 'black';
+        function toggleButton(buttonType) {
+    const buyButton = document.getElementById('buyButton');
+    const saleButton = document.getElementById('saleButton');
+    
+    if (buttonType === 'buy') {
+        buyButton.style.backgroundColor = 'white';
+        buyButton.style.color = 'blue';
+        saleButton.style.backgroundColor = 'transparent';
+        saleButton.style.color = 'black';
+    } else if (buttonType === 'sale') {
+        saleButton.style.backgroundColor = 'white';
+        saleButton.style.color = 'blue';
+        buyButton.style.backgroundColor = 'transparent';
+        buyButton.style.color = 'black';
+    }
+}
+
+    </script>
+  </body>
+</html>
